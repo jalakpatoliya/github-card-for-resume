@@ -1,0 +1,24 @@
+{
+  "name": "github-card-for-resume",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jalakpatoliya/github-card-for-resume.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jalakpatoliya/github-card-for-resume/issues"
+  },
+  "homepage": "https://github.com/jalakpatoliya/github-card-for-resume#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "supervisor": "^0.12.0"
+  }
+}
