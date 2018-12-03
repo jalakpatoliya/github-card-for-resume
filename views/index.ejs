@@ -1,6 +1,61 @@
 <% include ./partials/header %>
 
+<br>
+<div class="ui center aligned stackable grid">
 
-HELLO
+
+<div class="five wide column">
+    <div class="ui segment raised">
+    <h3><i class="github big icon"></i>GitHub</h3>
+    <div class="ui card">
+        <div class="image">
+            <img src="https://avatars3.githubusercontent.com/u/30546867?s=400&u=6c759ce29ef691908b0f818b34024a7f9ea33d9e&v=4">
+        </div>
+        <div class="content">
+            <div class="header">Jalak Patoliya
+                <a href="https://github.com/jalakpatoliya"> <button class="ui right floated button" type="button" name="button">follow</button>
+                </a>
+            </div>
+            <div class="meta">
+                <a>@jalakpatoliya</a>
+            </div>
+            <div class="ui horizonatal divider">
+            </div>
+            <div class="description">
+                <div class="ui stackable grid">
+                    <div class="row">
+                        <div class="five wide column">
+                            <a href="https://github.com/jalakpatoliya?tab=repositories">
+                                <h2 class="ui header"><%= data.repos%></h2>
+                            </a> <a href="https://github.com/jalakpatoliya?tab=repositories">REPOS</a>
+                        </div>
+                        <div class="five wide column">
+                            <a href="https://github.com/jalakpatoliya?tab=repositories">
+                                <h2 class="ui header">0</h2>
+                            </a> <a href="https://github.com/jalakpatoliya?tab=repositories">GISTS</a>
+                        </div>
+                        <div class="four wide column">
+                            <a href="https://github.com/jalakpatoliya?tab=repositories">
+                                <h2 class="ui header"><%= data.followers%></h2>
+                            </a> 
+                            
+                            <% if(data.followers > 1){ %> <a href="https://github.com/jalakpatoliya?tab=repositories">FOLLOWERS</a>
+                            <% } else { %> <a href="https://github.com/jalakpatoliya?tab=repositories">FOLLOWER</a>  <% } %>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="extra content">
+            <h3>Available for hire</h3>
+        </div>
+    </div>
+
+
+    
+    </div>
+</div>
+</div>
 
 <% include ./partials/footer %>
