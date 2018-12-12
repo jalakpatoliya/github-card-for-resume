@@ -5,7 +5,7 @@ const githubScraper = require('github-scraper');
 
 const url = 'jalakpatoliya'; // a random username
 
-let port = process.env.PORT || 8080;
+let port = process.env.PORT || 8090;
 
 app.set('view engine', 'ejs');
 app.use(express.static(`${__dirname}/public`));
